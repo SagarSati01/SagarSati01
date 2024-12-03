@@ -23,27 +23,6 @@
 
 ---
 
-## 🌟 Projects
-
-### 🖥️ Personal Portfolio Website
-- Designed and developed a responsive portfolio showcasing my skills, projects, and contact information.
-
-### 🎵 Fully Functional Music Player
-- Built a music player with features like play/pause, next/previous, and metadata extraction using `jsmediatags`.
-- Responsive design for both PC and mobile devices.
-
-### 📝 To-Do List Application
-- A feature-rich to-do list app developed with React.js.
-- Includes task management functionalities with an intuitive user interface.
-
-### 🔐 Password Manager 
-- Developed using React.js and Tailwind CSS.  
-- Features two variants:
-  - **Local Storage:** Stores passwords securely within the browser.  
-  - **Database Variant:** Uses MongoDB for enhanced password storage and management.
-  - 
----
-
 ## 🚀 Currently Learning
 - Deepening my understanding of **Express.js** and **Node.js**.
 - Exploring **Full Stack Development** to integrate frontend and backend seamlessly.
@@ -57,4 +36,3 @@
 
 ---
 
-🌟 *"Code is like humor. When you have to explain it, it’s bad."* – Cory House
