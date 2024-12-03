@@ -687,7 +687,6 @@ user-responses {
     .self {
         max-width: 90vw;
     }
-
     .dark-theme {
         .menu {
             background-color: var(--text-color);
