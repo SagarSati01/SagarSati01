@@ -443,10 +443,7 @@ user-responses {
     .hamburger,.portfolioIcon{
         filter:invert(1);
     }
-    .menu{
-        background-color: var(--text-color);
-    }
-
+   
     .self .intro h1 span {
         color: var(--accent-color);
     }
@@ -688,7 +685,11 @@ user-responses {
     .self {
         max-width: 90vw;
     }
-
+    .dark-theme {
+    .menu{
+        background-color: var(--text-color);
+    }
+}
     .contactIcon {
         padding-left: 10%;
     }
