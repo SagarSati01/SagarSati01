@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container" id="home">
+        <nav class="navbar flex">
+            <div class="image flex">
+                <img class="portfolioIcon" src="images/icons8-portfolio-50.png" alt="logo">
+                <img src="images/icons8-menu-30.png" alt="hamburger" class="hamburger" id="hamburgerIcon">
+            </div>
+            <ul class="flex menu" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="btns">
+                <button class="switchTheme" id="toggle-theme"><img src="images/modeimage-removebg-preview.png"
+                        width="30px" alt=""></button>
+                <a href="#admin-login" class="adminLogin" id="admin-loginbtn" onclick="showAdminLogin()"><img
+                        src="images/icons8-admin-24.png" width="30px" alt="admin"></a>
+            </div>
+        </nav>
+        <section class="self flex">
+            <div class="img-container flex"><img id="me" src="images/me1.png" alt="Sagar Sati" width="120px"></div>
+            <article class="intro flex">
+                <span class="title">Web Developer</span>
+                <h1>Hello I am <span>Sagar Sati</span></h1>
+
+
+                <p> i'm a dedicated Computer Science Engineering Student With Passion For Creating Innovation
+                    Digital
+                    Solutions.
+                    With a Strong Foundation in Programming and a knack for problem-solving.</p>
+                <a class="btn resume-btn" target="_blank" href="Sagar_Sati_CV.pdf">Download CV</a>
+
+            </article>
+        </section>
+        <div class="contactIcon flex">
+            <a href="mailto:sagarsati01@gmail.com?subject=Your%20Subject&body=Your%20Message" target="_blank"><img
+                    src="images/envelope-solid-24.png" alt=""></a>
+            <a href="#" target="_blank"><img src="images/linkedin-square-logo-24.png" alt=""></a>
+            <a href="#" target="_blank"><img src="images/github-logo-24.png" alt=""></a>
+        </div>
+    </header>
+    <div class="separation"></div>
+    <section id="education" class="section education">
+        <h2>Education :</h2>
+        <div class="flex">
+
+
+            <div class="left">
+
+                <div class="edu-item">
+                    <h3>Bachelor of Technology (B.Tech CSE)</h3>
+                    <p><a target="_blank" href="https://uktech.ac.in/en">VMSB Uttrakhand Technical University,
+                            Dehradun</a></p>
+                    <p>2022 - 2026</p>
+                </div>
+                <div class="edu-item">
+                    <h3>Higher Secondary</h3>
+                    <p><a target="_blank"
+                            href="https://www.schoolsworld.in/schools/showcollege.php?college_id=5110800401#google_vignette">Govt.
+                            Inter College, Ratighat, Nainital</a> </p>
+                    <p>2021 - 2022</p>
+                </div>
+                <div class="edu-item">
+                    <h3>High School </h3>
+                    <p><a target="_blank"
+                            href="https://www.schoolsworld.in/schools/showcollege.php?college_id=5110800401#google_vignette">Govt.
+                            Inter College, Ratighat, Nainital</a></p>
+                    <p> 2019 - 2020 </p>
+                </div>
+            </div>
+            <div class="right flex"><img src="images/educationImg.jpg" width="300px" alt=""></div>
+        </div>
+    </section>
+    <div class="separation"></div>
+    <section id="skills" class="section skills">
+        <h2> My Skills : </h2>
+        <p>( I Like to Craft Beautiful And Scalable Web Products )</p>
+        <div class="flex">
+            <div class="left">
+                <li class="flex"><img src="images/icons8-html-5-48.png" alt=""><span>HTML</span> </li>
+                <li class="flex"><img src="images/icons8-css3-48.png" alt=""><span>CSS</span></li>
+                <li class="flex"><img src="images/icons8-javascript-48.png" alt=""><span>JavaScript</span></li>
+                <li class="flex"><img src="images/icons8-react-native-48.png" alt=""><span>ReactJS</span></li>
+                <li class="flex"><img src="images/icons8-bootstrap-48.png" alt=""><span>BootStrap</span></li>
+                <li class="flex"><img src="images/icons8-tailwind-css-48.png" alt=""><span>TailwindCss</span></li>
+                <li class="flex"><img src="images/icons8-java-94.png" alt="" width="48"><span>Java</span></li>
+            </div>
+            <div class="right flex">
+
+                <li>Creativity and Design</li>
+                <li>Development</li>
+                <li>Technology</li>
+                <li>Responsive Layouts</li>
+                <li>Problem Solving</li>
+                <li>Data Structures and Algorithm</li>
+
+            </div>
+
+        </div>
+    </section>
+    <div class="separation"></div>
+    <section class="section projects" id="projects">
+        <h2>Projects :</h2>
+        <ul>
+            <li class="project-item">
+                <h3> Music Player - Fully Functional </h3>
+                <p>Developed a fully functional music player with auto music detection from folder . Use of jsmediatag
+                    to extract song's metadata .</p>
+            </li>
+
+
+            <li class="project-item">
+                <h3>Personal Portfolio</h3>
+                <p>Developed my personal portfolio website using HTML, CSS and JS</p>
+            </li>
+
+            <li class="project-item">
+                <h3>Simon Says Game</h3>
+                <p>Developed a challenging and engaging memory and reaction time game </p>
+            </li>
+            <li class="project-item">
+                <h3>Todo list using ReactJs</h3>
+                <p>Developed a basic todo list using react basic concepts</p>
+            </li>
+            <li class="project-item">
+                <h3>Password Manager using ReactJs</h3>
+                <p>Developed a password manager that stores password in localStorage and in Database also</p>
+            </li>
+        </ul>
+    </section>
+
+    <div class="separation"></div>
+    <section class="contact mini-section" id="contact">
+        <h2>Contact Me :</h2>
+        <form class="contact-form" id="contact-form">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your email(GMAIL)" required>
+            <textarea id="message" placeholder="Your message" required></textarea>
+            <div>
+                <button class="bluebtn" id="submit">Send</button>
+            </div>
+
+        </form>
+
+    </section>
+    <div class="separation"></div>
+
+    <section class="admin-login mini-section" id="admin-login">
+        <h2> Admin Login </h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" class="bluebtn">Login</button>
+        </form>
+    </section>
+
+
+    <section class="mini-section admin-section" id="admin-section">
+        <h2> User Responses </h2>
+        <div id="user-responses"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
