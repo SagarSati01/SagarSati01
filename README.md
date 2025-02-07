@@ -30,8 +30,8 @@
 ---
 
 ## 📫 Let's Connect!
-- **GitHub:** [github.com/your-username](https://github.com/SagarSati01)
-- **LinkedIn:** [linkedin.com/in/your-linkedin](https://linkedin.com/in/sagar-sati-0143aa252)
+- **GitHub:** [github.com/SagarSati01](https://github.com/SagarSati01)
+- **LinkedIn:** [linkedin.com/in/Sagar_Sati01](https://linkedin.com/in/sagar-sati-0143aa252)
 - **Email:** sagarsati01@gmail.com
 
 ---
