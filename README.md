@@ -24,4 +24,4 @@
 ---
 
 ## 📫 Connect
-[GitHub](https://github.com/SagarSati01) | [LinkedIn](https://linkedin.com/in/Sagar_Sati01) | sagarsati01@gmail.com
+[GitHub](https://github.com/SagarSati01) | [LinkedIn](https://linkedin.com/in/sagar-01s) | sagarsati01@gmail.com
